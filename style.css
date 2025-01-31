@@ -178,7 +178,7 @@ img {
     }
 
     .home .text-h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         line-height: 3rem;
     }
 
@@ -187,6 +187,6 @@ img {
     }
 
     .home-img {
-        max-width: 70%;
+        max-width: 60%;
     }
 }
