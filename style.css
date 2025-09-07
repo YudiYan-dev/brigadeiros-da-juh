@@ -133,3 +133,92 @@ main > section.content-main > a > button:hover {
 
 /* Cardápio */
 
+main.main-cardapio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+    height: calc(100vh - 80px);
+    padding: 20px;
+}
+
+.title-cardapio {
+    text-align: center;
+    margin: 80px;
+}
+
+.title-cardapio > h1 {
+    font-family: var(--fonttitle);
+    font-size: 60px;
+    color: var(--maincolor);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.658);
+}
+
+.title-cardapio > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+div.doces {
+    background-color: var(--maincolor);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 230px;
+    height: 300px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    transition: all 0.3s;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+div.doces:hover {
+    transform: scale(1.03);
+}
+
+div.doces > p {
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.336);
+    font-weight: 600;
+}
+
+div.doces > img {
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.pedir {
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 50px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.336);
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: var(--maincolor);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.158);
+    transition: all 0.3s;
+    margin-top: 13px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.pedir:hover {
+    transform: scale(1.03);
+}
+
+
