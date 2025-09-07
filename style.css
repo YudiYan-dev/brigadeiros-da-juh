@@ -138,13 +138,12 @@ main.main-cardapio {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;    
-    height: calc(100vh - 80px);
     padding: 20px;
 }
 
 .title-cardapio {
     text-align: center;
-    margin: 80px;
+    margin: 30px;
 }
 
 .title-cardapio > h1 {
